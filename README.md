@@ -7,10 +7,10 @@ This project has received funding from the European Union’s Horizon 2020 resea
 The simulations were performed on the supercomputer [Jean Zay@IDRIS](http://www.idris.fr/) under the DARI CPU allocation nº A0080101279.
 
 ## Content of this repository:
-* Documents:
+* Documents [here](01_Documents.md):
     - Link to the [public scientific report]() delivered EU-H2020-IMMERSE: _Ensemble quantification of  short-term predictability of the ocean fine-scale dynamics: A western mediterranean test-case at kilometric-scale resolution_.
     - Link to the [slides]() of a presentation given on Jan. 2021.
-* The model configuration: source code and description [here]().
-* Diagnostics tools and notebooks [here]().
+* The model configuration: source code and description [here](02_Config.md).
+* Diagnostics tools and notebooks [here](03_DiagTools.md).
 
  
