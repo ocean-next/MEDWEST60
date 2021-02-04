@@ -12,7 +12,7 @@ The simulations were performed on the supercomputer [Jean Zay@IDRIS](http://www.
 ## Content of this repository:
 * The model configuration: source code and description [here](02_Config.md).
 * Diagnostics tools and notebooks [here](03_DiagTools.md).
-* Documents and communication about MEDWEST60 [here](01_Documents.md):
-    - Link to the [public scientific report]() delivered EU-H2020-IMMERSE: _Ensemble quantification of  short-term predictability of the ocean fine-scale dynamics: A western mediterranean test-case at kilometric-scale resolution_.
+* Communication about MEDWEST60 [here](01_Documents.md):
+  
   
  
