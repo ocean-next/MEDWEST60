@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<file_definition type="multiple_file" name="@expname@_@freq@_@startdate@_@enddate@" sync_freq="1d" min_digits="4">
+
+  <file_group id="1ts" output_freq="1ts" output_level="10" enabled=".true."/> <!-- 1 time step files -->
+
+  <file_group id="1h"  output_freq="1h" split_freq="1d"  output_level="10" enabled=".true.">
+    <!--SLX <file id="file51" name_suffix="_icemod" description="ice variables" compression_level="2" enabled=".true." > -->
+     <!-- SLX  <field field_ref="iceconc"      name="ileadfrac" /> -->
+     <!-- SLX <field field_ref="icevolu"      name="sivolu" /> -->
+     <!-- <field field_ref="snowvol"      name="snvolu" /> -->
+      <!-- <field field_ref="snowthic_cea" name="isnowthi"  /> -->
+      <!-- <field field_ref="icethic_cea"  name="iicethic"  /> -->
+    <!--SLX </file> -->
+  </file_group>
+
+  <file_group id="2h"  output_freq="2h"  output_level="10" enabled=".true."/> <!-- 2h files -->
+  <file_group id="3h"  output_freq="3h"  output_level="10" enabled=".true."/>
+  <file_group id="4h"  output_freq="4h"  output_level="10" enabled=".true."/> <!-- 4h files -->
+  <file_group id="6h"  output_freq="6h"  output_level="10" enabled=".true."/> <!-- 6h files -->
+  <file_group id="1d"  output_freq="1d"  output_level="10" enabled=".true."/>
+  <file_group id="5d"  output_freq="5d"  output_level="10" enabled=".true."/>  <!-- 5d files -->
+  <file_group id="1m"  output_freq="1mo" output_level="10" enabled=".true."/> <!-- real monthly files -->
+  <file_group id="2m"  output_freq="2mo" output_level="10" enabled=".true."/> <!-- real 2m files -->
+  <file_group id="3m"  output_freq="3mo" output_level="10" enabled=".true."/> <!-- real 3m files -->
+  <file_group id="4m"  output_freq="4mo" output_level="10" enabled=".true."/> <!-- real 4m files -->
+  <file_group id="6m"  output_freq="6mo" output_level="10" enabled=".true."/> <!-- real 6m files -->
+  <file_group id="1y"  output_freq="1y"  output_level="10" enabled=".true."/> <!-- real yearly files -->
+  <file_group id="2y"  output_freq="2y"  output_level="10" enabled=".true."/> <!-- real 2y files -->
+  <file_group id="5y"  output_freq="5y"  output_level="10" enabled=".true."/> <!-- real 5y files -->
+  <file_group id="10y" output_freq="10y" output_level="10" enabled=".true."/> <!-- real 10y files -->
+
+</file_definition>

@@ -1,0 +1,140 @@
+  <grid_definition>
+
+    <!--  -->
+    <grid id="grid_T_2D" >
+      <domain id="grid_T" />
+    </grid>
+    <!--  -->
+    <grid id="grid_T_3D_ncatice" >
+      <domain id="grid_T" />
+      <axis id="ncatice" />
+    </grid>
+    <!--  -->
+    <grid id="grid_T_3D" >
+      <domain id="grid_T" />
+      <axis id="deptht" />
+    </grid>
+    <!--  -->
+    <grid id="grid_U_2D" >
+      <domain id="grid_U" />
+    </grid>
+    <!--  -->
+    <grid id="grid_U_3D" >
+      <domain id="grid_U" />
+      <axis id="depthu" />
+    </grid>
+    <!--  -->
+    <grid id="grid_V_2D" >
+      <domain id="grid_V" />
+    </grid>
+    <!--  -->
+    <grid id="grid_V_3D" >
+      <domain id="grid_V" />
+      <axis id="depthv" />
+    </grid>
+    <!--  -->
+    <grid id="grid_W_2D" >
+      <domain id="grid_W" />
+    </grid>
+    <!--  -->
+    <grid id="grid_W_3D" >
+      <domain id="grid_W" />
+      <axis id="depthw" />
+    </grid>
+    <!--  -->
+
+
+
+    <grid id="grid_1point" >
+      <domain domain_ref="1point"/>
+    </grid>
+    <!--  -->
+    <grid id="grid_T_nfloat" >
+      <domain id="grid_T" />
+      <axis id="nfloat" />
+    </grid>
+    <!--  -->
+
+
+    <!-- ++++++++++++++++++++++++++++++++ -->
+    <!-- LOLO: -->
+    <!-- Levels for AJ -->
+
+    <grid id="grid_T_3D_us" >
+      <!-- <domain id="grid_T" /> -->
+      <domain domain_ref="AtlCenterT" />
+      <axis id="deptht_us" />
+    </grid>
+    <!--  -->
+    <grid id="grid_U_3D_us" >
+      <!-- <domain id="grid_U" /> -->
+      <domain domain_ref="AtlCenterU" />
+      <axis id="deptht_us" />  <!-- Yes! T depth! -->
+    </grid>
+    <!--  -->
+    <grid id="grid_V_3D_us" >
+      <!-- <domain id="grid_V" /> -->
+      <domain domain_ref="AtlCenterV" />
+      <axis id="deptht_us" />  <!-- Yes! T depth! -->
+    </grid>
+
+    <!-- ++++++++++++++++++++++++++++++++ -->
+
+
+
+    <grid id="grid_BlackSeaT" >
+      <domain domain_ref="BlackSeaT" />
+    </grid>
+    <grid id="grid_BlackSeaU" >
+      <domain domain_ref="BlackSeaU" />
+    </grid>
+    <grid id="grid_BlackSeaV" >
+      <domain domain_ref="BlackSeaV" />
+    </grid>
+
+    <grid id="grid_BlackSeaT_3D" >
+      <domain domain_ref="BlackSeaT" />
+      <axis id="deptht" />
+    </grid>
+    <grid id="grid_BlackSeaU_3D" >
+      <domain domain_ref="BlackSeaU" />
+      <axis id="depthu" />
+    </grid>
+    <grid id="grid_BlackSeaV_3D" >
+      <domain domain_ref="BlackSeaV" />
+      <axis id="depthv" />
+    </grid>
+    <!-- LOLO. -->
+
+
+
+    <grid id="grid_znl_T_2D">
+      <domain id="gznl" />
+    </grid>
+    <!--  -->
+    <grid id="grid_znl_T_3D">
+      <domain id="gznl" />
+      <axis id="deptht" />
+    </grid>
+    <!--  -->
+    <grid id="grid_znl_W_3D">
+      <domain id="gznl" />
+      <axis id="depthw" />
+    </grid>
+
+    <grid id="grid_ptr_T_2D">
+      <domain id="ptr" />
+    </grid>
+
+    <grid id="grid_ptr_T_3D">
+      <domain id="ptr" />
+      <axis id="deptht" />
+    </grid>
+
+    <grid id="grid_ptr_W_3D">
+      <domain id="ptr" />
+      <axis id="depthw" />
+    </grid>
+
+  </grid_definition>
+

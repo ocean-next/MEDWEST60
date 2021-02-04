@@ -1,0 +1,17 @@
+<context id="%NMEMBER%nemo">
+  <!-- constant definition -->
+  <variable_definition src="./const_def.xml"/>
+  <!-- Fields definition -->
+  <field_definition src="./field_def_nemo-opa.xml"/>
+  <field_definition src="./field_def_nemo-lim.xml"/>
+  <!-- Files definition -->
+  <file_definition src="./file_def_nemo-opa.xml"/> 
+  <file_definition src="./file_def_nemo-lim.xml"/>
+  <!-- axis definition -->
+  <axis_definition src="./axis_def.xml"/>
+  <!-- domain definition -->
+  <domain_definition src="./domain_def_nemo.xml"/>
+  <!-- grid definition -->
+  <grid_definition src="./grid_def.xml"/>
+ </context>
+

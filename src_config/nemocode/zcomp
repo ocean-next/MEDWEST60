@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#module purge
+
+# On JZAY 2020 
+#module load intel-all/19.0.4
+#module load hdf5/1.8.21-mpi
+#module load netcdf/4.7.2-mpi
+#module load netcdf-fortran/4.5.2-mpi
+#module load netcdf-cxx4/4.3.1-mpi
+#module load subversion
+#module load nco
+#module load ncview
+
+
+make install && make

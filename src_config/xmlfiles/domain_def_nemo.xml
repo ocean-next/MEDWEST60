@@ -1,0 +1,91 @@
+
+<domain_definition>
+
+
+
+  <domain_group id="grid_T">
+
+    <domain id="grid_T" long_name="grid T"/>
+
+
+    <!--   My zoom: example of hand defined zoom   -->
+
+    <domain id="1point" domain_ref="grid_T" >
+      <zoom_domain id="1point" ibegin="139" jbegin="119" ni="1" nj="1" />
+    </domain>
+
+
+    <!-- LOLO: -->
+    <domain id="AtlCenterT" domain_ref="grid_T" >
+      <!-- <zoom_domain id="AtlCenterT" ibegin="980"  jbegin="220" ni="4901" nj="4509" /> -->
+      <zoom_domain id="AtlCenterT" ibegin="980" jbegin="0" ni="4901" nj="4729" />
+    </domain>
+
+    <domain id="BlackSeaT" domain_ref="grid_T" >
+      <zoom_domain id="BlackSeaT" ibegin="7460"  jbegin="2365" ni="894" nj="961" />
+    </domain>
+    <domain id="OSMT" domain_ref="grid_T" >
+      <zoom_domain id="OSMT" ibegin="4664"  jbegin="2613" ni="524" nj="960" />
+    </domain>
+    <!-- LOLO. -->
+
+  </domain_group>
+
+
+
+
+
+
+  <domain_group id="grid_U">
+    <domain id="grid_U" long_name="grid U"/>
+
+    <!-- LOLO: -->
+    <domain id="AtlCenterU" domain_ref="grid_U" >
+      <zoom_domain id="AtlCenterU" ibegin="980" jbegin="0" ni="4901" nj="4729" />
+    </domain>
+
+    <domain id="BlackSeaU" domain_ref="grid_U" >
+      <zoom_domain id="BlackSeaU" ibegin="494"  jbegin="150" ni="65" nj="70" />
+    </domain>
+    <domain id="OSMU" domain_ref="grid_U" >
+      <zoom_domain id="OSMU" ibegin="4664"  jbegin="2613" ni="524" nj="960" />
+    </domain>
+    <!-- LOLO. -->
+
+  </domain_group>
+
+  <domain_group id="grid_V">
+    <domain id="grid_V" long_name="grid V"/>
+
+    <!-- LOLO: -->
+    <domain id="AtlCenterV" domain_ref="grid_V" >
+      <zoom_domain id="AtlCenterV" ibegin="980" jbegin="0" ni="4901" nj="4729" />
+    </domain>
+
+    <domain id="BlackSeaV" domain_ref="grid_V" >
+      <zoom_domain id="BlackSeaV" ibegin="494"  jbegin="150" ni="65" nj="70" />
+    </domain>
+    <domain id="OSMV" domain_ref="grid_V" >
+      <zoom_domain id="OSMV" ibegin="4664"  jbegin="2613" ni="524" nj="960" />
+    </domain>
+    <!-- LOLO. -->
+
+  </domain_group>
+
+  <domain_group id="grid_W">
+    <domain id="grid_W" long_name="grid W"/>
+  </domain_group>
+
+  <domain_group id="scalarpoint">
+    <domain id="scalarpoint" long_name="scalar"/>
+  </domain_group>
+
+  <domain_group id="gznl">
+    <domain id="gznl" long_name="gznl"/>
+    <domain id="ptr" domain_ref="gznl" >
+      <zoom_domain id="ptr" ibegin="0000" jbegin="0" ni="1" nj="0000" />
+    </domain>
+  </domain_group>
+
+
+</domain_definition>

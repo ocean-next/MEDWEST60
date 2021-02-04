@@ -1,0 +1,14 @@
+  <axis_definition>
+    <axis id="deptht"  long_name="Vertical T levels"  unit="m" positive="down" />
+    <axis id="depthu"  long_name="Vertical U levels"  unit="m" positive="down" />
+    <axis id="depthv"  long_name="Vertical V levels"  unit="m" positive="down" />
+    <axis id="depthw"  long_name="Vertical W levels"  unit="m" positive="down" />
+    <axis id="nfloat"  long_name="Float number"       unit="-"                 />
+    <axis id="icbcla"  long_name="Iceberg class"      unit="1"                 />
+    <axis id="ncatice" long_name="Ice category"       unit="1"                 />
+
+    <axis id="deptht_us"  long_name="User-selection of vertical T levels" unit="m" positive="down" /> <!-- LOLO -->
+
+    <axis id="iax_20C" long_name="20 degC isotherm"   unit="degC"              />
+    <axis id="iax_28C" long_name="28 degC isotherm"   unit="degC"              />
+  </axis_definition>
