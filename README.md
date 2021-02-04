@@ -10,7 +10,7 @@ The simulations were performed on the supercomputer [Jean Zay@IDRIS](http://www.
 * Documents:
     - Link to the [public scientific report]() delivered EU-H2020-IMMERSE: _Ensemble quantification of  short-term predictability of the ocean fine-scale dynamics: A western mediterranean test-case at kilometric-scale resolution_.
     - Link to the [slides]() of a presentation given on Jan. 2021.
-* The model configuration: source code and description [here]().
-* Diagnostics tools and notebooks [here]().
+* The model configuration: source code and description [here](01_Config.md).
+* Diagnostics tools and notebooks [here](02_DiagTools.md).
 
  
