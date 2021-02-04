@@ -1,6 +1,9 @@
+_This repositiory is still under construction! Last update: Feb 2021_
+
 # MEDWEST60
 
 This repository describes the MEDWEST60 configuration and ensemble simulations performed in 2020 with the [NEMO](https://www.nemo-ocean.eu) ocean model over the Western Mediterranean Sea at 1/60° horizontal grid resolution by [Ocean-Next](https://www.ocean-next.fr/) and the [MEOM group](http://meom-group.github.io) at [IGE](http://www.ige-grenoble.fr).
+
 
 ## Acknowledments:
 This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 821926: [H2020-IMMERSE project](https://immerse-ocean.eu), and was further supported by [CNES](http://www.cnes.fr).
