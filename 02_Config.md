@@ -7,12 +7,12 @@
 ## Code source
 The code source is available [[Here](./src_config/)]
 
-### Introduction
+## Introduction
 A strong basis for the present work is the already-existing kilometric-scale simulation eNATL60 performed by Ocean Next and IGE recently over the North Atlantic area ([Bordeau et al 2020](http://doi.org/10.5281/zenodo.4032732)): [https://github.com/ocean-next/eNATL60](https://github.com/ocean-next/eNATL60). 
 
 This simulation was designed  to model as accurately as possible the surface signature of oceanic motions of scales down to 15km, which is, for example, the expected resolution of   the future altimetry mission  SWOT (Surface Ocean and Water Topography, [Fu and Ferrari 2008](https://doi.org/10.1029/2008EO480003), [Durand et al 2010](https://doi.org/10.1109/JPROC.2010.2043031) ). It  provides a unique scientific material at this resolution to  study fine-scale processes (<200 km) and cross-scale interactions  in the ocean, from submesoscale processes  to basin-scale features.  The cost in CPU, memory and storage for such a simulation is however too high to consider performing  several sets of ensemble experiments over the entire North Atlantic  domain. Instead, we designed here a new regional configuration, following  as much as possible the eNATL60 setup, but covering a smaller area, and we use the eNATL60 simulation for hourly boundary conditions. 
 
-### The regional domain
+## The regional domain
 
 ![MEDWEST60 athymetry](./figs/MEDWEST60bathy.png)<br>
 *Figure 1: Domain and bathymetry (in km) of the MEDWEST60 regional configuration.*
@@ -25,7 +25,7 @@ By design, all technical and parameter choices  for the regional configuration M
 Domain and bathymetry (in km) of the MEDWEST60 regional configuration. The full domain covers 883 x 803 grid points in the horizontal, representing 1200 km x 1100 km, from  35.1ºN  to  44.4ºN in latitude and from  5.7ºW to 9.5ºE in longitude. The two yellow boxes show the subregions over which  spectral analysis is performed (dotted line) in the following, and over which zoomed snapshots will be plotted (solid line).
 
 
-#### MEDWEST60 specifications:
+## MEDWEST60 specifications:
 - Numerical code: NEMO 3.6 + XIOS-2.0 (\url{https://www.nemo-ocean.eu/})
 -  Horizontal resolution: 1/60º, 
 -  Grid size:  883 x 803 in the horizontal (1.20 km <$\Delta\mathrm{x}$<1.55 km),
