@@ -11,7 +11,7 @@ The eNATL60 simulation was designed  to model as accurately as possible the surf
 
 ## Code source
 * The MEDWEST60 model code and settings were inferred from the PRACE Resumption project with [eNATL60](https://github.com/ocean-next/eNATL60). The MEDWEST60 code source is available [[Here](./src_config/)]
-* The details of how the configuration was built are given in [this document](doc/Making-of-MEDWEST60.md) 
+* The details of how the configuration was built are given in [this document](https://github.com/ocean-next/MEDWEST60/blob/main/src_config/making-of-Config.md) 
 
 ## The regional domain
 
