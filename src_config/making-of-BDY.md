@@ -26,7 +26,9 @@
 
 * Note that with the fortran convention, the domain is :
 
-  ``` ncks -F x,5530,6412 y,1870,2672  deptht,1,212 ```
+   ```shell
+   ncks -F x,5530,6412 y,1870,2672  deptht,1,212 
+   ```
 
 
 ---
@@ -52,8 +54,7 @@
 
 * I ran it once per type of files (gridV, gridU, gridT, gridS, gridU-2D, gridV-2D, gridT-2D). Note that for the 2d files, teh script needs to be modified so that cdfclip no longer use ```-klim 1 212``` 
 
-  ```shell
-  ```
+   ```shell
   #!/bin/bash
   #SBATCH --nodes=1
   #SBATCH --ntasks=1
@@ -171,8 +172,7 @@ cdfzoom -f MEDWEST60_Bathymetry_v3.4.nc4 -zoom 1 20 55 85 -v Bathymetry -time 0 
 
 * The script is run via sbatch with a "meta" script as above (```meta_xby```)
 
- ```powershell
- ```
+ ```shell
   #!/bin/bash
   #SBATCH --nodes=1
   #SBATCH --ntasks=1
@@ -239,8 +239,7 @@ cdfzoom -f MEDWEST60_Bathymetry_v3.4.nc4 -zoom 1 20 55 85 -v Bathymetry -time 0 
 * The Western boundary BD1W is modified so that the variables are written with y (the dimension along the bdy) the rightest dimension in the file
 * The Easter boundary BD2E is modified so that the variables are written with y (the dimension along the bdy) the rightest dimension in the file and the x dimension is reversed so that indices fo from the outter values to the inner values.
 
-```shell
-```
+ ```shell
 #!/bin/bash
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -339,9 +338,6 @@ done
       done
       done
       
-      
-      
-    
     ```
 
   
@@ -351,7 +347,7 @@ done
   * Script ```concat```:
 
 
-    ```bash
+ ```shell
   #!/bin/bash
       echo "USAGE: concat 2010 BD1W"
       YR=$1
@@ -359,9 +355,7 @@ done
       for typ in gridT gridU gridV gridS "gridT-2D" "gridU-2D" "gridV-2D" ; do
           ncrcat *R_${BD}*_${typ}.nc YR_${BD}_MEDWEST60-BLBT02_y${YR}.1h_${typ}.nc
       done
-    
-  
-    ```
+ ```
 
 #### NOTE:
 
