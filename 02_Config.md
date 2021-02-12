@@ -44,6 +44,6 @@ In summary, the only  differences between MEDWEST60 and eNATL60-LB02 are:
 - the model time-step has been   increased  by a factor 2  ( 80 seconds in MEDWEST60 versus 40 seconds in eNATL60) in this regional domain (stability criteria easier to meet in the West Mediterranean region compared to other regions in the North Atlantic). 
 
 ## Starting protocole  (spinup) and time-step change:
-
+See scientific report published [here]().
 
 
