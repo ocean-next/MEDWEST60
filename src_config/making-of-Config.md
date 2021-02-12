@@ -142,18 +142,12 @@
      * Western BDY is located at the Gibraltar Strait, the Eastern BDT across Corsica and Sardegna.  
      *  rim of 12 ?) 
    * Tides 
-   * See this document for the preparing steps of the boundaries
+   * [See this document]() for details about  the preparation steps of the boundary conditions
 
 ### Forcing and Runoff:
    * eNATL60 was forced by DFS5.2 fields (EraInterim grid).
    * Runoff : no reasons to take something different that eNATL60.
 
-## First run 
-### Prepare namelist
-
-### Setup `includefile.ksh`
-
-### Discuss XIOS issues
 
 ## Preparing the Ensemble code:
 
