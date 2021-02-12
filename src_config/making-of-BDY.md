@@ -18,7 +18,8 @@
 * I extended the initial MEWEST domain from JMM so that the rim of the bdy doesn't not cut just along the coast just south of cape corse.
   In the end, the final domain with which i have extracted the bathymetry is:
 
-  ```ncks -4 -L 1 -d x,5529,6411 -d y,1869,2671 eNATL60_coordinates_v3.nc4 MEDWEST60_coordinates_v3.nc4 
+  ```shell
+  ncks -4 -L 1 -d x,5529,6411 -d y,1869,2671 eNATL60_coordinates_v3.nc4 MEDWEST60_coordinates_v3.nc4 
   ```
 
 * Regarding the bathymetry, i've also filled in a couple of small areas on the east coast of corsica with ```cdfbathy```. The detailed is given [here](\https://github.com/ocean-next/MEDWEST60/blob/main/src_config/making-of-Config.md).
