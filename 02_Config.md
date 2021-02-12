@@ -1,16 +1,17 @@
 
 
 
-# The MEDWEST60 Configuration 
+# The MEDWEST60 1/60 regional configuration 
 
-
-## Code source
-The code source is available [[Here](./src_config/)]
 
 ## Introduction
 A strong basis for the present work is the already-existing kilometric-scale simulation eNATL60 performed by Ocean Next and IGE recently over the North Atlantic area ([Bordeau et al 2020](http://doi.org/10.5281/zenodo.4032732)): [https://github.com/ocean-next/eNATL60](https://github.com/ocean-next/eNATL60). 
 
-This simulation was designed  to model as accurately as possible the surface signature of oceanic motions of scales down to 15km, which is, for example, the expected resolution of   the future altimetry mission  SWOT (Surface Ocean and Water Topography, [Fu and Ferrari 2008](https://doi.org/10.1029/2008EO480003), [Durand et al 2010](https://doi.org/10.1109/JPROC.2010.2043031) ). It  provides a unique scientific material at this resolution to  study fine-scale processes (<200 km) and cross-scale interactions  in the ocean, from submesoscale processes  to basin-scale features.  The cost in CPU, memory and storage for such a simulation is however too high to consider performing  several sets of ensemble experiments over the entire North Atlantic  domain. Instead, we designed here a new regional configuration, following  as much as possible the eNATL60 setup, but covering a smaller area, and we use the eNATL60 simulation for hourly boundary conditions. 
+The eNATL60 simulation was designed  to model as accurately as possible the surface signature of oceanic motions of scales down to 15km, which is, for example, the expected resolution of   the future altimetry mission  SWOT (Surface Ocean and Water Topography, [Fu and Ferrari 2008](https://doi.org/10.1029/2008EO480003), [Durand et al 2010](https://doi.org/10.1109/JPROC.2010.2043031) ). It  provides a unique scientific material at this resolution to  study fine-scale processes (<200 km) and cross-scale interactions  in the ocean, from submesoscale processes  to basin-scale features.  The cost in CPU, memory and storage for such a simulation is however too high to consider performing  several sets of ensemble experiments over the entire North Atlantic  domain. Instead, we designed here a new regional configuration, following  as much as possible the eNATL60 setup, but covering a smaller area, and we use the eNATL60 simulation for hourly boundary conditions. 
+
+## Code source
+* The MEDWEST60 model code and settings are inferred from PRACE Resumption project with [eNATL60](https://github.com/ocean-next/eNATL60). The MEDWEST60 code source is available [[Here](./src_config/)]
+* The details of how the configuration was built are given in [this document](doc/Making-of-MEDWEST60.md) 
 
 ## The regional domain
 
