@@ -96,13 +96,7 @@
 ---------------------------
 ---------------------------
 ---------------------------
----------------------------
 
-
-## History of MEDWEST60 preparation:
-   All configuration files will be kept on `ige-meom-cal1.u-ga.fr` in `/mnt/meom/MODEL_SET/MEDWEST60/MEDWEST60-I/`  
-   All configuration files will (hopefully) have a version number, in order to identify them unambiguously.  
-   A `README.md` file will briefly describe the files and their version. 
    
 ### Geographical domain: Bathymetry and coordinates.
    * Domain : We extract the MEDWEST60 domain from eNATL60 domain using the following ncks command (extension of 2 points to the east (v3) compared to v1)
@@ -130,7 +124,7 @@
 
 
 ### Vertical grid:
-  `eNATL60` uses a 300 level grid. In the `MEDWEST60` configuration we only need 212 of these levels to reach the deepest bathy
+  `eNATL60` uses a 300 level grid. In the `MEDWEST60` configuration we only need 212 of these levels to reach the deepest bathy. See also [here](https://github.com/ocean-next/MEDWEST60/blob/main/02_Config.md)
 
 
 ### Initial conditions
@@ -140,9 +134,9 @@
 ### Open Boundaries
    * Likely eNATL60 hourly data for T S U V and SSH.
      * Western BDY is located at the Gibraltar Strait, the Eastern BDT across Corsica and Sardegna.  
-     *  rim of 12 ?) 
+     *  rim of 12) 
    * Tides 
-   * [See this document]() for details about  the preparation steps of the boundary conditions
+   * [See this document](https://github.com/ocean-next/MEDWEST60/blob/main/src_config/making-of-BDY.md) for details about  the preparation steps of the boundary conditions
 
 ### Forcing and Runoff:
    * eNATL60 was forced by DFS5.2 fields (EraInterim grid).
@@ -180,5 +174,5 @@ To use the modified code in DCM:
      ```bash
      make
      ```
-   * The MEDWEST60 code source is available [[Here](./src_config/)]
+   * The final MEDWEST60 code source is available [[Here](./src_config/)]
  
