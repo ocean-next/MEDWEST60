@@ -22,7 +22,7 @@
   ncks -4 -L 1 -d x,5529,6411 -d y,1869,2671 eNATL60_coordinates_v3.nc4 MEDWEST60_coordinates_v3.nc4 
   ```
 
-* Regarding the bathymetry, i've also filled in a couple of small areas on the east coast of corsica with ```cdfbathy```. The detailed is given [here](\https://github.com/ocean-next/MEDWEST60/blob/main/src_config/making-of-Config.md).
+* Regarding the bathymetry, i've also filled in a couple of small areas on the east coast of corsica with ```cdfbathy```. The detailed is given [here](https://github.com/ocean-next/MEDWEST60/blob/main/src_config/making-of-Config.md).
 
 * Note that with the fortran convention, the domain is :
 
@@ -409,14 +409,9 @@ done
      done
      done
      done
-     ```
-
+     ``
   
-
-  
-
-  
-
+---
 ---
 
 CONCATENATE IN YEARLY FILES
@@ -426,21 +421,4 @@ Basically: ```ncrcat R_BD1W_*y2010*gridS.nc  zfake2010*_gridS.nc ```
 
 Make sure that the files are in the right order (first R_2010 than zfakefrom2009 ).
 
-
-
-
-
--
-
-  - When the rsync has started i can detached the screen window with ```CTL+a``` and ```d```
-
-  - When i want to check how the transfer goes: ```screen -r datatransfer```.
-
-  - close (kill) screen window: ``` CTL+a K```
-
-* [Cheatsheet for screen commands here.](https://linuxize.com/post/how-to-use-linux-screen/)
-
-* With the use of ```sshfs```, the data is never loaded entirely to CAL1. It creates a sort of tunnel and data is only transfered via CAL1.
-
-* Note: however on CAL1, i don't know how to unmount properly the mounted directory. 
 
