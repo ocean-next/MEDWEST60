@@ -3,6 +3,7 @@ _This repositiory is still under construction! Last update: Feb 2021_
 # MEDWEST60
 
 This repository describes the MEDWEST60 configuration and ensemble simulations performed in 2020 with the [NEMO](https://www.nemo-ocean.eu) ocean model over the Western Mediterranean Sea at 1/60° horizontal grid resolution by [Ocean-Next](https://www.ocean-next.fr/) and the [MEOM group](http://meom-group.github.io) at [IGE](http://www.ige-grenoble.fr). 
+
 Here a shortcut to the public scientific report [[DOI: 10.5281/zenodo.4570158]](https://www.doi.org/10.5281/zenodo.4570158) delivered for project EU-H2020-IMMERSE: _Ensemble quantification of  short-term predictability of the ocean fine-scale dynamics: A western mediterranean test-case at kilometric-scale resolution_.
 
 
