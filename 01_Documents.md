@@ -4,7 +4,7 @@
 * _2021, in preparation._
 
 #### Reports:
-* Link to the public scientific report [[pdf here]](https://cloud.ocean-next.fr/s/yk2SK22ayRjbPzW) delivered EU-H2020-IMMERSE: _Ensemble quantification of  short-term predictability of the ocean fine-scale dynamics: A western mediterranean test-case at kilometric-scale resolution_.
+* Link to the public scientific report [[DOI: 10.5281/zenodo.4570158]](https://www.doi.org/10.5281/zenodo.4570158) delivered EU-H2020-IMMERSE: _Ensemble quantification of  short-term predictability of the ocean fine-scale dynamics: A western mediterranean test-case at kilometric-scale resolution_.
   
 #### Presentations:
 * Presentation at an internal IGE-CNES meeting, Feb. 2021. [[pdf]](https://cloud.ocean-next.fr/s/GEf8ZBRzQcS2mQK). 
