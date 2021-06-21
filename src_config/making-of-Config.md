@@ -1,4 +1,5 @@
 # 1. Set up the MEDWEST60 configuration
+Thank you Jean-Marc Molines @IGE-Grenoble for the tutorial.
 
 ## Installing the NEMO code for this configuration
   This config share the same code as the eNATL60 experiment performed within [PRACE Resumption](https://ocean-next.fr/expertise/natl60/) project achieved at BSC on `marenostrum4` super computer, by Laurent Brodeau.  
