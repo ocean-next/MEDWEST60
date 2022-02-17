@@ -1,7 +1,7 @@
 ## 1. Documents  about MEDWEST60 
 
 #### Articles:
-* _2021, in preparation._
+* 2022 Leroux, S., Brankart, J.-M., Albert, A., Brodeau, L., Molines, J.-M., Jamet, Q., Le Sommer, J., Penduff, T., and Brasseur, P.: Ensemble quantification of short-term predictability of the ocean dynamics at kilometric-scale resolution: A Western Mediterranean test-case, Ocean Sci. Discuss. [preprint], https://doi.org/10.5194/os-2022-11, in review, 2022. 
 
 #### Reports:
 * Link to the public scientific report [[DOI: 10.5281/zenodo.4570158]](https://www.doi.org/10.5281/zenodo.4570158) delivered for project EU-H2020-IMMERSE: _Ensemble quantification of  short-term predictability of the ocean fine-scale dynamics: A western mediterranean test-case at kilometric-scale resolution_.
