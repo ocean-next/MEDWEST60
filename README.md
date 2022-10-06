@@ -6,9 +6,9 @@ This repository describes the MEDWEST60 configuration and ensemble simulations p
 
 * Here is a link to the scientific paper (currently in revisions in Ocean Science) [[DOI: 10.5194/os-2022-11]](https://doi.org/DOI/10.5194/os-2022-11). _Ensemble quantification of short-term predictability of the ocean dynamics at kilometric-scale resolution: A Western Mediterranean test-case._ The updated (revised) manuscript re-submitted to Ocean Science is also accessible [here](https://jowu78.a5.swdrive.fr/index.php/s/gWSZBb3Tb45gPai).
 
-* Here is a (link to a poster)[https://jowu78.a5.swdrive.fr/index.php/s/wrbtminBfbRqfSB] recently proposed for the (World Ocean Circulation User Consultation Meeting)[https://woc2022.esa.int/], ESA-ESRIN Frascati, Italy, Oct. 2022.
+* Here is a [link to a poster](https://jowu78.a5.swdrive.fr/index.php/s/wrbtminBfbRqfSB) recently proposed for the [World Ocean Circulation User Consultation Meeting](https://woc2022.esa.int/), ESA-ESRIN Frascati, Italy, Oct. 2022.
 
-* And here is a link to some videos on our [MEDWEST60 Vimeo channel]{https://vimeo.com/showcase/9695743}.
+* And here is a link to some videos on our [MEDWEST60 Vimeo channel](https://vimeo.com/showcase/9695743).
 
 
 ## Acknowledments:
