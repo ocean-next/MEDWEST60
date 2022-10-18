@@ -1,4 +1,4 @@
-_This repositiory is still under construction! Last update: Oct. 2022_
+_Last update: Oct. 2022_
 
 # MEDWEST60
 
