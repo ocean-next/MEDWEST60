@@ -1,8 +1,8 @@
 ## 1. Documents  about MEDWEST60 
 
 #### Articles:
-* 2022 Leroux, S., Brankart, J.-M., Albert, A., Brodeau, L., Molines, J.-M., Jamet, Q., Le Sommer, J., Penduff, T., and Brasseur, P.: Ensemble quantification of short-term predictability of the ocean dynamics at kilometric-scale resolution: A Western Mediterranean test-case, Ocean Sci. Discuss. [preprint], https://doi.org/10.5194/os-2022-11, in review, 2022. 
-* 2022 Jamet et al: Non-local Eddy-Mean Kinetic Energy Transfers in Submesoscale-Permitting Ensemble Simulations, Journal of Advances in Modeling Earth Systems (JAMES), https://www.essoar.org/doi/10.1002/essoar.10510686.1, in review 2022
+* 2022 Leroux, S., Brankart, J.-M., Albert, A., Brodeau, L., Molines, J.-M., Jamet, Q., Le Sommer, J., Penduff, T., and Brasseur, P.: Ensemble quantification of short-term predictability of the ocean dynamics at kilometric-scale resolution: A Western Mediterranean test-case, Ocean Sci. Discuss. [preprint], https://doi.org/10.5194/os-2022-11, accepted, Oct. 2022. 
+* 2022 Jamet et al: Non-local Eddy-Mean Kinetic Energy Transfers in Submesoscale-Permitting Ensemble Simulations, Journal of Advances in Modeling Earth Systems (JAMES), [doi: 10.1029/2022MS003057](https://doi.org/10.1029/2022MS003057), Sept. 2022.
 
 
 #### Reports:
