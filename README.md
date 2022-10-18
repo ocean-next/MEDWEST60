@@ -1,10 +1,10 @@
-_This repositiory is still under construction! Last update: Feb 2021_
+_This repositiory is still under construction! Last update: Oct. 2022_
 
 # MEDWEST60
 
 This repository describes the MEDWEST60 configuration and ensemble simulations performed in 2020 with the [NEMO](https://www.nemo-ocean.eu) ocean model over the Western Mediterranean Sea at 1/60° horizontal grid resolution by [Ocean-Next](https://www.ocean-next.fr/), [Datlas](www.datlas.fr) and the [MEOM group](http://meom-group.github.io) at [IGE](http://www.ige-grenoble.fr). 
 
-* Here is a link to the scientific paper (currently in revisions in Ocean Science) [[DOI: 10.5194/os-2022-11]](https://doi.org/DOI/10.5194/os-2022-11). _Ensemble quantification of short-term predictability of the ocean dynamics at kilometric-scale resolution: A Western Mediterranean test-case._ The updated (revised) manuscript re-submitted to Ocean Science is also accessible [here](https://jowu78.a5.swdrive.fr/index.php/s/gWSZBb3Tb45gPai).
+* Here is a link to the scientific paper (accepted in Oct. 2022 in Ocean Science, currently in final publication stage) [[DOI: 10.5194/os-2022-11]](https://os.copernicus.org/preprints/os-2022-11/). _Ensemble quantification of short-term predictability of the ocean dynamics at kilometric-scale resolution: A Western Mediterranean test-case._ The revised and accepted manuscript is also accessible [here](https://jowu78.a5.swdrive.fr/index.php/s/gWSZBb3Tb45gPai).
 
 * Here is a [link to a poster](https://jowu78.a5.swdrive.fr/index.php/s/wrbtminBfbRqfSB) recently proposed for the [World Ocean Circulation User Consultation Meeting](https://woc2022.esa.int/), ESA-ESRIN Frascati, Italy, Oct. 2022.
 
