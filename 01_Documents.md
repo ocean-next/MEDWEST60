@@ -6,7 +6,7 @@
 
 
 #### Reports:
-* Link to the public scientific report [[DOI: 10.5281/zenodo.4570158]](https://www.doi.org/10.5281/zenodo.4570158) delivered for project EU-H2020-IMMERSE: _Ensemble quantification of  short-term predictability of the ocean fine-scale dynamics: A western mediterranean test-case at kilometric-scale resolution_. The updated (revised) manuscript re-submitted to Ocean Science is also accessible [here](https://jowu78.a5.swdrive.fr/index.php/s/gWSZBb3Tb45gPai).
+* Link to the public scientific report [[DOI: 10.5281/zenodo.4570158]](https://www.doi.org/10.5281/zenodo.4570158) delivered for project EU-H2020-IMMERSE, Feb. 2020: _Ensemble quantification of  short-term predictability of the ocean fine-scale dynamics: A western mediterranean test-case at kilometric-scale resolution_. 
 
   
 #### Presentations:
